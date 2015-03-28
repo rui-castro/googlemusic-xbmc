@@ -2,10 +2,10 @@ import sys, xbmcplugin, xbmcaddon, xbmc
 from xbmcgui import ListItem
 
 # xbmc hooks
-addon = xbmcaddon.Addon(id='plugin.audio.googlemusic.exp')
+addon = xbmcaddon.Addon(id='plugin.audio.googlemusic')
 
 # plugin constants
-plugin    = "GoogleMusicEXP-" + addon.getAddonInfo('version')
+plugin    = "GoogleMusic-" + addon.getAddonInfo('version')
 dbg       = addon.getSetting( "debug" ) == "true"
 addon_url = sys.argv[0]
 handle    = int(sys.argv[1])
