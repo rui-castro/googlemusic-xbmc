@@ -1,2 +1,15 @@
+[B]1.0.3_ruicastro_0.8.2[/B]
+- Dropped old modifications to upstream and reapplied patches on current upstream develop branch
+- Merged branch develop-fix - adds fix to utils.py that prevents error because of plugin name/id
+- Merged branch sort - adds sort by album, artist, year and date to album views
+- Merged branch ssl-verification-active - activate SSL verification in GoogleMusicLogin.py
+- Changed icon to official Google Play Music icon
+[B]1.0.2_ruicastro_0.8.2[/B]
+- Updated gmusicapi to version 4.0.0
+[B]1.0.1_ruicastro_0.8.2[/B]
+- Added support for sorting albums by Album name, Artist and Year.
+- Updated icon.
+[B]1.0.0_ruicastro_0.8.2[/B]
+- updated album navigation show albums in format "Album name [Artist name - Year]"
 [B]0.8.0[/B]
 - update gmusicapi to version 2013.02.27
