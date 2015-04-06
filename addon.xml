@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.audio.googlemusic"
        name="Google Music"
-       version="0.8.2"
-       provider-name="Valentin-Costel Hăloiu">
+       version="1.0.3_ruicastro_0.8.2"
+       provider-name="Rui Castro, Valentin-Costel Hăloiu">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.decorator" version="3.4.0"/>
