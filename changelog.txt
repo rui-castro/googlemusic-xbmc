@@ -1,3 +1,5 @@
+[B]1.0.4_ruicastro_0.8.2[/B]
+- Merged changes from upstream - "Fix regression in Play All"
 [B]1.0.3_ruicastro_0.8.2[/B]
 - Dropped old modifications to upstream and reapplied patches on current upstream develop branch
 - Merged branch develop-fix - adds fix to utils.py that prevents error because of plugin name/id
