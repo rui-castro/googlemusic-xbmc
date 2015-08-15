@@ -1,3 +1,5 @@
+[B]1.0.5_ruicastro_0.8.2[/B]
+- Merged changes from upstream
 [B]1.0.4_ruicastro_0.8.2[/B]
 - Merged changes from upstream - "Fix regression in Play All"
 [B]1.0.3_ruicastro_0.8.2[/B]
