@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.audio.googlemusic"
        name="Google Music"
-       version="1.0.5_ruicastro_0.8.2"
+       version="1.0.6_ruicastro_0.8.2"
        provider-name="Rui Castro, Valentin-Costel Hăloiu">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.decorator" version="3.4.0"/>
     <import addon="script.module.requests" version="2.7.0"/>
-    <import addon="script.module.gmusicapi" version="2015-08-15-6.0.0"/>
+    <import addon="script.module.gmusicapi" version="2015-08-15-7.0.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>audio</provides>
