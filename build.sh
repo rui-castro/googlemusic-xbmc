@@ -1,13 +1,14 @@
 #!/bin/bash
 
-dest=plugin.audio.googlemusic
+addon=`grep ".*id=" addon.xml | cut -f2 -d'"'`
+dest=build/$addon
 version=`grep "^\s\+version" addon.xml | cut -f2 -d'"'`
 
 if [ -d $dest ]; then
     rm -r $dest
 fi
 
-mkdir $dest
+mkdir -p $dest
 cp addon.xml $dest/
 cp LICENSE.txt $dest/
 cp changelog.txt $dest/
@@ -20,5 +21,12 @@ if [ -f $dest-$version.zip ]; then
     rm $dest-$version.zip
 fi
 
-zip -r $dest-$version.zip $dest
-rm -r $dest
+cd build
+zip -r $addon-$version.zip $addon
+mv $addon-$version.zip $addon
+
+rm $addon/LICENSE.txt
+rm $addon/changelog.txt
+rm $addon/"icon and thumbnail licensing.txt"
+rm $addon/*.py
+rm -r $addon/resources
